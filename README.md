@@ -8,3 +8,11 @@
 4. Download Dependencies: If the project has dependencies defined in the code using import statements, you can use the go get command to download them: `go get`
 5. To install the required dependencies, run `npm install` in your project directory
 6. Run Your Application: After initializing the module and downloading the dependencies, you can run your Go application using `go run main.go`. Navigate to `localhost:8888` in your browser. You should see the chatty appy UI
+
+## Deployment
+I used heroku for deployment. You can find instructions here: https://devcenter.heroku.com/articles/heroku-cli?ref=hackernoon.com
+
+Once you commit the latest changees run
+`heroku git:remote -a evening-wave-98825`
+`git push heroku main`
+Then go to the URL Heroku generated to see the chatapp
