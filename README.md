@@ -1,5 +1,5 @@
 # chatty-appy
-310's ChatApp, but in Golang
+310's ChatApp, but in Golang. A user will visit a webpage, assign themselves a username, and send messages in a chat room.
 
 ## Setting up and running the project
 1. Clone repository `git clone https://github.com/arixwang/chatty-appy.git`
