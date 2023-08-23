@@ -10,9 +10,9 @@
 6. Run Your Application: After initializing the module and downloading the dependencies, you can run your Go application using `go run main.go`. Navigate to `localhost:8888` in your browser. You should see the chatty appy UI
 
 ## Deployment
-I used heroku for deployment. You can find instructions here: https://devcenter.heroku.com/articles/heroku-cli?ref=hackernoon.com
+I used heroku for deployment. You can find instructions here: https://devcenter.heroku.com/articles/heroku-cli?ref=hackernoon.com. You'll get a URL generated that can be used to test chatty appy. 
 
 Once you commit the latest changees run
-`heroku git:remote -a evening-wave-98825`
+`heroku git:remote -a [CLI WEBSITE]`
 `git push heroku main`
 Then go to the URL Heroku generated to see the chatapp
